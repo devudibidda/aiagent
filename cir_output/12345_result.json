@@ -1,0 +1,202 @@
+{
+  "status": "success",
+  "filename": "12345.pdf",
+  "document_id": "02ef65ec-0a27-4342-9d8d-9708f4982ec6",
+  "cir_number": "12345",
+  "extraction_timestamp": "2025-11-11T19:24:29.286792",
+  "file_size_mb": 0.6073379516601562,
+  "page_count": 8,
+  "ocr_confidence": 95.0,
+  "text_length": 4691,
+  "compliance": {
+    "status": "NO-GO",
+    "score": 56.25,
+    "passed_checks": 9,
+    "failed_checks": 7,
+    "critical_issues": 0,
+    "warnings": 7
+  },
+  "document": {
+    "document_id": "02ef65ec-0a27-4342-9d8d-9708f4982ec6",
+    "cir_number": "12345",
+    "metadata": {
+      "filename": "12345.pdf",
+      "file_size_mb": 0.6073379516601562,
+      "page_count": 8,
+      "extraction_timestamp": "2025-11-11T19:24:29.285727",
+      "ocr_confidence": 95.0,
+      "extraction_method": "pytesseract"
+    },
+    "technical_data": {
+      "component_name": "--- PAGE 1 ---",
+      "component_id": null,
+      "part_number": null,
+      "drawing_number": null,
+      "revision": null,
+      "description": null,
+      "specifications": {}
+    },
+    "change_details": {
+      "change_type": "Material Change",
+      "reason_for_change": "--- PAGE 1 ---\nDate: 07/03/2025 CIR: 1844114     Inspection Page 1 of 8 \n \nVestas Wind Systems A/S - Hedeager 42 - DK-8200 Aarhus N. Denmark - www.vestas.com \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n ",
+      "affected_areas": [],
+      "implementation_date": null,
+      "change_owner": null,
+      "technical_justification": "--- PAGE 1 ---\nDate: 07/03/2025 CIR: 1844114     Inspection Page 1 of 8 \n \nVestas Wind Systems A/S - Hedeager 42 - DK-8200 Aarhus N. Denmark - www.vestas.com \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nCreated By: gulod \n \n \n \n \n \n \n \n \n \n \n \n  \n \n \nComponent Inspection Report \n \nCIR ID: 1844114 \nComponent Type: General \nReport Type: Inspection \n \nVersion:  v9 \n \n \n \nCopyright Notice \nThe documents are created by Vestas Wind Systems A/S and contain copyrighted material, trademar"
+    },
+    "full_text_content": "\n--- PAGE 1 ---\nDate: 07/03/2025 CIR: 1844114     Inspection Page 1 of 8 \n \nVestas Wind Systems A/S - Hedeager 42 - DK-8200 Aarhus N. Denmark - www.vestas.com \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nCreated By: gulod \n \n \n \n \n \n \n \n \n \n \n \n  \n \n \nComponent Inspection Report \n \nCIR ID: 1844114 \nComponent Type: General \nReport Type: Inspection \n \nVersion:  v9 \n \n \n \nCopyright Notice \nThe documents are created by Vestas Wind Systems A/S and contain copyrighted material, trademarks, and other proprietary information. \nAll rights reserved. No part of the documents may be reproduced or copied in any form or by any means\u2014such as graphic, electronic, or \nmechanical, including photocopying, taping, or information storage and retrieval systems without the prior written permission of Vestas Wind \nSystems A/S. The use of these documents by you, or anyone else authorized by you, is prohibited unless specifically permitted by Vestas \nWind Systems A/S. You may not alter or remove any trademark, copyright or other notice from the documents. The documents are provided \n\u201cas is\u201d and Vestas Wind Systems A/S shall not have any responsibility or liability whatsoever for the results of use of the documents by you.  \n\n--- PAGE 2 ---\nDate: 07/03/2025 CIR: 1844114     Inspection Page 2 of 8 \n \nVestas Wind Systems A/S - Hedeager 42 - DK-8200 Aarhus N. Denmark - www.vestas.com \n \nWind Turbine Data \nReport Type Inspection \nService report number 65115348 \nCIM Case Number 6007 \nReason For Service Battery measurements were taken to analyze the Rtop \nprocedure according to DMS procedure: 0138-1002 \nAlarm Log Number 900 \nTurbine Number 249823 \nCountry Brazil \nSite Name \n(ZIP code if appropriate) Pedra Pintada IV_Umburanas (EGP) \nTurbine type V150 \nRotor diameter 150 \nNominal power 4500 \nVoltage 650 \nPower regulation FSCS \nFrequency 0 \nTemperature variant Standard temperature \nMK version MK3F3 \nOnshore / Offshore Onshore \nTurbine Manufacturer Vestas \nLocal turbine ID PPT04_07 \nRun status at arrival Run \nCommissioning date \n(DD/MM/YYYY) 14/06/2024 \nTurbine Visit date \n(DD/MM/YYYY) 07/03/2025 \nService Engineer/Technician gulod \nRun (hrs) 5727 \nTotal production (kWh) 12331766 \nRun status after turbine visit Run \nDescription \nVestas Item Number 29198962 \nDescription of field observa-\ntions All batteries in the 230V circuit were tested individually. \n\n--- PAGE 3 ---\nDate: 07/03/2025 CIR: 1844114     Inspection Page 3 of 8 \n \nVestas Wind Systems A/S - Hedeager 42 - DK-8200 Aarhus N. Denmark - www.vestas.com \n \nAction to be performed on \ncomponent No further action required \nSBU Recommendation \n10/06/2025-EEAFN.The CIR has been reviewed and \nlinked to CIM 6007. You can also check the batteries us-\ning VGA guide for alarm 2674 - UPS battery error (KK \nUPS) - V105 V112 V117 V126 V136 V150 V155 3,3-\n4,2MW MK3. Replace the Battery Pack for the UPS, if \ntests fail or indication of diminished capacity is present. If \n1 battery is reading significantly lower than the other, re-\nplace the pack. \nNo futher action requerid. \nDefect part has already been \nreplaced No \nFollow up notification al-\nready created No \n \n \nGeneral Component Data \nComponent group Electrical: Other \nComponent Type Battery UPS ++06 \nPosition of failed item UPS 230V \nComponent Manufacturer KK WIND SOLUTIONS \n \nComponent Serial Number Vestas Unique Identifier \n  \n \n \n  \n\n--- PAGE 4 ---\nDate: 07/03/2025 CIR: 1844114     Inspection Page 4 of 8 \n \nVestas Wind Systems A/S - Hedeager 42 - DK-8200 Aarhus N. Denmark - www.vestas.com \n \nPictures \nPlate Type Picture Not \npossible No \n \n \n \nPicture 0 \nDescription:  \n\n\n--- PAGE 5 ---\nDate: 07/03/2025 CIR: 1844114     Inspection Page 5 of 8 \n \nVestas Wind Systems A/S - Hedeager 42 - DK-8200 Aarhus N. Denmark - www.vestas.com \n \n \nPicture 1 \nDescription:  \n\n\n--- PAGE 6 ---\nDate: 07/03/2025 CIR: 1844114     Inspection Page 6 of 8 \n \nVestas Wind Systems A/S - Hedeager 42 - DK-8200 Aarhus N. Denmark - www.vestas.com \n \n \nPicture 2 \nDescription:  \n\n\n--- PAGE 7 ---\nDate: 07/03/2025 CIR: 1844114     Inspection Page 7 of 8 \n \nVestas Wind Systems A/S - Hedeager 42 - DK-8200 Aarhus N. Denmark - www.vestas.com \n \n \nPicture 3 \nDescription:  \n \n \n \n \nRevision \n \nEdited On \nDD/MM/YYYY \nEdited By Comments \n07/03/2025 gulod Submitted \n08/03/2025 pahca Submitted \n\n\n--- PAGE 8 ---\nDate: 07/03/2025 CIR: 1844114     Inspection Page 8 of 8 \n \nVestas Wind Systems A/S - Hedeager 42 - DK-8200 Aarhus N. Denmark - www.vestas.com \n \n08/03/2025 pahca Submitted \n08/03/2025 pahca Rejected \n09/03/2025 gulod Submitted \n10/03/2025 eeafn Submitted \n10/03/2025 eeafn Approved \n10/03/2025 eeafn Submitted \n10/03/2025 eeafn Approved \n02/04/2025 EEAFN Approved \n \n ",
+    "extracted_pages": {
+      "1": "Date: 07/03/2025 CIR: 1844114     Inspection Page 1 of 8 \n \nVestas Wind Systems A/S - Hedeager 42 - DK-8200 Aarhus N. Denmark - www.vestas.com \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nCreated By: gulod \n \n \n \n \n \n \n \n \n \n \n \n  \n \n \nComponent Inspection Report \n \nCIR ID: 1844114 \nComponent Type: General \nReport Type: Inspection \n \nVersion:  v9 \n \n \n \nCopyright Notice \nThe documents are created by Vestas Wind Systems A/S and contain copyrighted material, trademarks, and other proprietary information. \nAll rights reserved. No part of the documents may be reproduced or copied in any form or by any means\u2014such as graphic, electronic, or \nmechanical, including photocopying, taping, or information storage and retrieval systems without the prior written permission of Vestas Wind \nSystems A/S. The use of these documents by you, or anyone else authorized by you, is prohibited unless specifically permitted by Vestas \nWind Systems A/S. You may not alter or remove any trademark, copyright or other notice from the documents. The documents are provided \n\u201cas is\u201d and Vestas Wind Systems A/S shall not have any responsibility or liability whatsoever for the results of use of the documents by you.  ",
+      "2": "Date: 07/03/2025 CIR: 1844114     Inspection Page 2 of 8 \n \nVestas Wind Systems A/S - Hedeager 42 - DK-8200 Aarhus N. Denmark - www.vestas.com \n \nWind Turbine Data \nReport Type Inspection \nService report number 65115348 \nCIM Case Number 6007 \nReason For Service Battery measurements were taken to analyze the Rtop \nprocedure according to DMS procedure: 0138-1002 \nAlarm Log Number 900 \nTurbine Number 249823 \nCountry Brazil \nSite Name \n(ZIP code if appropriate) Pedra Pintada IV_Umburanas (EGP) \nTurbine type V150 \nRotor diameter 150 \nNominal power 4500 \nVoltage 650 \nPower regulation FSCS \nFrequency 0 \nTemperature variant Standard temperature \nMK version MK3F3 \nOnshore / Offshore Onshore \nTurbine Manufacturer Vestas \nLocal turbine ID PPT04_07 \nRun status at arrival Run \nCommissioning date \n(DD/MM/YYYY) 14/06/2024 \nTurbine Visit date \n(DD/MM/YYYY) 07/03/2025 \nService Engineer/Technician gulod \nRun (hrs) 5727 \nTotal production (kWh) 12331766 \nRun status after turbine visit Run \nDescription \nVestas Item Number 29198962 \nDescription of field observa-\ntions All batteries in the 230V circuit were tested individually. ",
+      "3": "Date: 07/03/2025 CIR: 1844114     Inspection Page 3 of 8 \n \nVestas Wind Systems A/S - Hedeager 42 - DK-8200 Aarhus N. Denmark - www.vestas.com \n \nAction to be performed on \ncomponent No further action required \nSBU Recommendation \n10/06/2025-EEAFN.The CIR has been reviewed and \nlinked to CIM 6007. You can also check the batteries us-\ning VGA guide for alarm 2674 - UPS battery error (KK \nUPS) - V105 V112 V117 V126 V136 V150 V155 3,3-\n4,2MW MK3. Replace the Battery Pack for the UPS, if \ntests fail or indication of diminished capacity is present. If \n1 battery is reading significantly lower than the other, re-\nplace the pack. \nNo futher action requerid. \nDefect part has already been \nreplaced No \nFollow up notification al-\nready created No \n \n \nGeneral Component Data \nComponent group Electrical: Other \nComponent Type Battery UPS ++06 \nPosition of failed item UPS 230V \nComponent Manufacturer KK WIND SOLUTIONS \n \nComponent Serial Number Vestas Unique Identifier \n  \n \n \n  ",
+      "4": "Date: 07/03/2025 CIR: 1844114     Inspection Page 4 of 8 \n \nVestas Wind Systems A/S - Hedeager 42 - DK-8200 Aarhus N. Denmark - www.vestas.com \n \nPictures \nPlate Type Picture Not \npossible No \n \n \n \nPicture 0 \nDescription:  \n",
+      "5": "Date: 07/03/2025 CIR: 1844114     Inspection Page 5 of 8 \n \nVestas Wind Systems A/S - Hedeager 42 - DK-8200 Aarhus N. Denmark - www.vestas.com \n \n \nPicture 1 \nDescription:  \n",
+      "6": "Date: 07/03/2025 CIR: 1844114     Inspection Page 6 of 8 \n \nVestas Wind Systems A/S - Hedeager 42 - DK-8200 Aarhus N. Denmark - www.vestas.com \n \n \nPicture 2 \nDescription:  \n",
+      "7": "Date: 07/03/2025 CIR: 1844114     Inspection Page 7 of 8 \n \nVestas Wind Systems A/S - Hedeager 42 - DK-8200 Aarhus N. Denmark - www.vestas.com \n \n \nPicture 3 \nDescription:  \n \n \n \n \nRevision \n \nEdited On \nDD/MM/YYYY \nEdited By Comments \n07/03/2025 gulod Submitted \n08/03/2025 pahca Submitted \n",
+      "8": "Date: 07/03/2025 CIR: 1844114     Inspection Page 8 of 8 \n \nVestas Wind Systems A/S - Hedeager 42 - DK-8200 Aarhus N. Denmark - www.vestas.com \n \n08/03/2025 pahca Submitted \n08/03/2025 pahca Rejected \n09/03/2025 gulod Submitted \n10/03/2025 eeafn Submitted \n10/03/2025 eeafn Approved \n10/03/2025 eeafn Submitted \n10/03/2025 eeafn Approved \n02/04/2025 EEAFN Approved \n \n "
+    },
+    "extracted_images": [],
+    "compliance": {
+      "status": "NO-GO",
+      "score": 56.25,
+      "total_checks": 16,
+      "passed_checks": 9,
+      "failed_checks": 7,
+      "critical_issues": [],
+      "warnings": [
+        {
+          "issue_id": "ISSUE_0001",
+          "severity": "HIGH",
+          "category": "Technical Data",
+          "description": "Must have part number or drawing number",
+          "affected_section": "Missing Part/Drawing Number",
+          "recommended_action": "Should be resolved before CIR approval",
+          "resolution_status": "OPEN"
+        },
+        {
+          "issue_id": "ISSUE_0002",
+          "severity": "MEDIUM",
+          "category": "Technical Data",
+          "description": "Component description should be more detailed",
+          "affected_section": "Insufficient Description",
+          "recommended_action": "Should be addressed in next revision",
+          "resolution_status": "OPEN"
+        },
+        {
+          "issue_id": "ISSUE_0003",
+          "severity": "MEDIUM",
+          "category": "Technical Data",
+          "description": "Technical specifications should be included",
+          "affected_section": "Missing Specifications",
+          "recommended_action": "Should be addressed in next revision",
+          "resolution_status": "OPEN"
+        },
+        {
+          "issue_id": "ISSUE_0004",
+          "severity": "HIGH",
+          "category": "Change Details",
+          "description": "Implementation date must be specified",
+          "affected_section": "Missing Implementation Date",
+          "recommended_action": "Should be resolved before CIR approval",
+          "resolution_status": "OPEN"
+        },
+        {
+          "issue_id": "ISSUE_0005",
+          "severity": "HIGH",
+          "category": "Change Details",
+          "description": "Change owner must be assigned",
+          "affected_section": "Missing Change Owner",
+          "recommended_action": "Should be resolved before CIR approval",
+          "resolution_status": "OPEN"
+        },
+        {
+          "issue_id": "ISSUE_0006",
+          "severity": "MEDIUM",
+          "category": "Change Details",
+          "description": "Should document areas affected by change",
+          "affected_section": "No Affected Areas Listed",
+          "recommended_action": "Should be addressed in next revision",
+          "resolution_status": "OPEN"
+        },
+        {
+          "issue_id": "ISSUE_0007",
+          "severity": "MEDIUM",
+          "category": "Documentation",
+          "description": "Found 0/5 expected documentation elements",
+          "affected_section": "Missing Key Documentation",
+          "recommended_action": "Should be addressed in next revision",
+          "resolution_status": "OPEN"
+        }
+      ],
+      "validation_rules_applied": [
+        {
+          "check": "CIR Number Present",
+          "status": "PASS"
+        },
+        {
+          "check": "Component Identified",
+          "status": "PASS"
+        },
+        {
+          "check": "Part Number Available",
+          "status": "FAIL"
+        },
+        {
+          "check": "Change Type Specified",
+          "status": "PASS"
+        },
+        {
+          "check": "Change Reason Documented",
+          "status": "PASS"
+        },
+        {
+          "check": "Technical Justification",
+          "status": "PASS"
+        },
+        {
+          "check": "Component Description",
+          "status": "FAIL"
+        },
+        {
+          "check": "Specifications Provided",
+          "status": "FAIL"
+        },
+        {
+          "check": "Implementation Date Set",
+          "status": "FAIL"
+        },
+        {
+          "check": "Change Owner Assigned",
+          "status": "FAIL"
+        },
+        {
+          "check": "Affected Areas Documented",
+          "status": "FAIL"
+        },
+        {
+          "check": "Documentation Complete",
+          "status": "PASS"
+        },
+        {
+          "check": "Key Documentation Elements",
+          "status": "FAIL"
+        },
+        {
+          "check": "Approval Evidence",
+          "status": "PASS"
+        },
+        {
+          "check": "Text Extraction Quality",
+          "status": "PASS"
+        },
+        {
+          "check": "No Extraction Errors",
+          "status": "PASS"
+        }
+      ],
+      "validation_timestamp": "2025-11-11T19:24:29.286733"
+    },
+    "processing_notes": [],
+    "extraction_errors": []
+  }
+}

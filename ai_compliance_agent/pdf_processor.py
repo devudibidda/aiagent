@@ -11,8 +11,8 @@ try:  # Prefer pypdf when available for better maintenance.
 except ImportError:  # Fall back to PyPDF2 if pypdf is missing.
     from PyPDF2 import PdfReader  # type: ignore
 
-from langchain_classic.schema import Document as LCDocument
-from langchain_classic.text_splitter import RecursiveCharacterTextSplitter
+from langchain_core.documents import Document as LCDocument
+from langchain_text_splitters import RecursiveCharacterTextSplitter
 
 logger = logging.getLogger(__name__)
 

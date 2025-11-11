@@ -1,39 +1,73 @@
-# 🚀 AI COMPLIANCE AGENT - QUICK REFERENCE CARD
+# 🎯 Quick Reference Card - AI Compliance Agent
+
+## 🚨 ERROR: "llama runner process has terminated"
+
+**INSTANT FIX (3 steps):**
+```bash
+# Terminal 1 - Start Ollama
+ollama serve
+
+# Terminal 2 - Check status
+curl http://localhost:11434/api/tags
+
+# Terminal 3 - Run app
+OLLAMA_MODEL=neural-chat python -m ai_compliance_agent.ui_gradio
+```
+
+**If still failing:**
+- ✅ Ensure 8GB+ free RAM: `free -h`
+- ✅ Use lighter model: `OLLAMA_MODEL=neural-chat` in `.env`
+- ✅ Monitor memory: `watch -n 1 free -h`
+
+---
 
 ## ⚡ START IN 30 SECONDS
 
-```powershell
+```bash
 # Terminal 1
-ollama serve mistral
+ollama serve
 
-# Terminal 2
-cd C:\Users\Nandan\agent
-python -m ai_compliance_agent.ui_gradio
+# Terminal 2 (wait 3 seconds)
+OLLAMA_MODEL=neural-chat python -m ai_compliance_agent.ui_gradio
 
 # Browser
-http://localhost:7860
+http://127.0.0.1:7860
 ```
 
 ---
 
 ## 📋 MODES OF OPERATION
 
-### 1. Web UI (Recommended)
+### 1. Web UI (Recommended) ⭐
 ```bash
 python -m ai_compliance_agent.ui_gradio
-# → http://localhost:7860
+# → http://127.0.0.1:7860
+# Best for: Interactive analysis, non-technical users
 ```
 
-### 2. CLI
-```bash
-python -m ai_compliance_agent.app <pdf_id> <kb_path> [--pretty]
-```
-
-### 3. Python API
+### 2. Python API
 ```python
 from ai_compliance_agent.agent_pipeline import ComplianceAgent
+from pathlib import Path
+
 agent = ComplianceAgent()
-result = agent.analyse("doc.pdf", "knowledge_base")
+result = agent.analyse(
+    pdf_id="./local_pdfs/document.pdf",
+    knowledge_base_path=Path("./ai_compliance_agent/knowledge_base")
+)
+print(result["analysis"])
+```
+
+### 3. Batch Processing
+```python
+from concurrent.futures import ThreadPoolExecutor
+
+pdfs = ["doc1.pdf", "doc2.pdf", "doc3.pdf"]
+with ThreadPoolExecutor(max_workers=2) as executor:
+    results = [
+        executor.submit(agent.analyse, pdf, kb_path)
+        for pdf in pdfs
+    ]
 ```
 
 ---
@@ -42,11 +76,19 @@ result = agent.analyse("doc.pdf", "knowledge_base")
 
 ### Environment Variables (.env)
 ```bash
-OLLAMA_MODEL=mistral
-API_BASE_URL=http://api-url
-TOKEN_URL=http://token-url
-CLIENT_ID=id
-CLIENT_SECRET=secret
+# ✅ REQUIRED
+OLLAMA_MODEL=neural-chat
+
+# ❓ Optional (OAuth2 PDF API)
+API_BASE_URL=https://api.example.com
+TOKEN_URL=https://auth.example.com/oauth/token
+CLIENT_ID=your_client_id
+CLIENT_SECRET=your_client_secret
+
+# Optional (paths)
+DOWNLOAD_DIR=./ai_compliance_agent/tmp_downloads
+KNOWLEDGE_BASE_DIR=./ai_compliance_agent/knowledge_base
+LOCAL_PDF_DIR=./ai_compliance_agent/local_pdfs
 ```
 
 ### Directories
